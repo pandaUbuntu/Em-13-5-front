@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "dayName": "Monday",
+    "city": "Kyiv",
+    "minTemperature": -3,
+    "maxTemperature": 2,
+    "currentTemperature": 0
+  },
+  {
+    "id": 2,
+    "dayName": "Tuesday",
+    "city": "Kyiv",
+    "minTemperature": -1,
+    "maxTemperature": 3,
+    "currentTemperature": 2
+  },
+  {
+    "id": 3,
+    "dayName": "Wednesday",
+    "city": "Kyiv",
+    "minTemperature": -4,
+    "maxTemperature": 1,
+    "currentTemperature": -2
+  },
+  {
+    "id": 4,
+    "dayName": "Thursday",
+    "city": "Kyiv",
+    "minTemperature": -2,
+    "maxTemperature": 4,
+    "currentTemperature": 1
+  },
+  {
+    "id": 5,
+    "dayName": "Friday",
+    "city": "Kyiv",
+    "minTemperature": 0,
+    "maxTemperature": 5,
+    "currentTemperature": 3
+  },
+  {
+    "id": 6,
+    "dayName": "Saturday",
+    "city": "Kyiv",
+    "minTemperature": -1,
+    "maxTemperature": 6,
+    "currentTemperature": 4
+  },
+  {
+    "id": 7,
+    "dayName": "Sunday",
+    "city": "Kyiv",
+    "minTemperature": -2,
+    "maxTemperature": 3,
+    "currentTemperature": 1
+  }
+]

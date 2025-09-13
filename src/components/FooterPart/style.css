@@ -1,0 +1,18 @@
+.footer-part{
+    margin: 30px;
+
+    p{
+        overflow-wrap: break-word;
+        text-align: left;
+    }
+
+    form{
+        margin-bottom: 30px;
+    }
+
+    h4{
+        font-size: 24px;
+        font-weight: 900;
+        margin-bottom: 10px;
+    }
+}

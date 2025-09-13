@@ -1,30 +1,20 @@
-import { useState } from 'react'
-import viteLogo from '/vite.svg'
 import './App.css'
+import TwoSideCard from './components/TwoSideCard'
+import WeatherCard from './components/WeatherCard'
+import dayInfo from './fixtures/weather.json'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
+      <div className="two-side-wrapper">
+        <TwoSideCard />
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
+      <div className='flex-conteiner'>
+        {
+          dayInfo.map(day => <WeatherCard {...day}/>)
+        }
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-      <h1> Hello world!! </h1>
     </>
   )
 }

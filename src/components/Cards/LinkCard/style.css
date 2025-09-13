@@ -1,0 +1,25 @@
+.link-card{
+    max-width: 230px;
+    padding: 30px 10px;
+    text-align: center;
+
+    a{
+        text-decoration: none;
+    }
+
+    h3{
+        color:black;
+        font-size: 20px;
+        font-weight: 700;
+        margin: 20px 0;
+    }
+}
+
+.link-card:hover{
+    border: 1px solid #b7c261;
+    color: #b7c261;
+
+    h3{
+        color: #b7c261;
+    }
+}

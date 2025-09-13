@@ -1,0 +1,17 @@
+.footer-wrapper {
+    background-color: #ade3b9;
+    border: 2px solid #333;
+    font-size: 20px;
+
+    .footer-container{
+        margin: 10px;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+
+        
+    }
+
+    
+}
+

@@ -1,0 +1,15 @@
+.section-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.section-wrapper{
+    h2 {
+        text-transform: uppercase;
+        margin: 20px 0;
+        font-size: 32px;
+        font-weight: bold;
+    }
+}
